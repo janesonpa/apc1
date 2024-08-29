@@ -2,17 +2,17 @@
 
 int main(){
 
-  double ISBN = 1234567891112;
-  printf("ISBN:%.0f\n", ISBN);
+  long int isbn = 1234567891112;
+  printf("ISBN:%li\n", isbn);
 
-  int Número_de_paginas = 296;
-  printf("Número de paginas:%i\n",Número_de_paginas);
+  int numero_de_paginas = 296;
+  printf("Número de paginas:%i\n",numero_de_paginas);
 
-  float Preço = 142.63f;
-    printf("preço:%.2f\n", Preço);
+  float preco = 142.63f;
+    printf("preço:%.2f\n", preco);
   
-  int Publicado_em = 2024;
-  printf("Publicado em:%i\n", Publicado_em);
+  int publicado_em = 2024;
+  printf("Publicado em:%i\n", publicado_em);
   
   return 0;
 }
