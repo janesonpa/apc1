@@ -20,9 +20,11 @@ int main (){
 
     switch (opcao) {
         case 1 :{ 
+            system("clear");
         
             break;
         case 2 :
+            system("clear");
             printf("===============================\n\n");
             printf("* * * NOME DOS JOGADORES * * *\n\n");
             printf("===============================\n\n");
